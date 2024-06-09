@@ -354,6 +354,16 @@ input[type="checkbox"]:checked ~ .menu-btn span:after {
   color: #ffffff;
 }
 
+.services-text ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services-text ul li {
+  margin-bottom: 10px; /* Optional: Adds space between list items */
+}
+
+
 @media screen and (max-width: 767px) {
   .about-text-column, .about-image-column {
       flex-basis: 100%;
@@ -451,5 +461,22 @@ input[type="checkbox"]:checked ~ .menu-btn span:after {
   }
   .footer-column h3, .footer-column h4 {
       text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services-text-column, .services-image-column {
+      flex-basis: 100%;
+      text-align: center;
+  }
+  .services-text {
+      text-align: center;
+      margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services-text-column, .services-image-column {
+      flex-basis: 100%;
   }
 }
